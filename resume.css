@@ -1,0 +1,123 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: verdana;
+}
+#mainpage{
+	width:1200px;
+	height:700px;
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#header{
+	width:1200px;
+	height:120px;
+	background-color: #669999;
+}
+#header h1{
+	text-align: center;
+	padding: 35px;
+}
+#container{
+	width:1200px;
+	height:570px;
+	margin-top: 10px;
+	background-color: white;
+}
+#leftsection{
+	width:350px;
+	height:570px;
+	background-color: #b3d9ff;
+	float:left;
+}
+#rightsection{
+	width:840px;
+	height:570px;
+	background-color: yellow;
+	float:right;
+	margin-left: 10px;
+}
+#imagesec{
+	width:350px;
+	height:200px;
+	background-color: #b3d9ff;
+}
+#contactsec{
+	width:350px;
+	height:370px;
+	background-color: pink;
+}
+#contactsec ul{
+	background-color: #b3d9ff;
+	list-style-type: none;
+
+}
+#contactsec  ul li{
+	line-height: 53px;
+	background-color: #e0ebeb;
+	font-family: verdana;
+	width:200px;
+	text-align:center;
+	position: relative;
+}
+#contactsec ul li a{
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	display:block;
+	color :black;
+	margin-bottom:10px;
+}
+#contactsec a:hover {
+	
+	opacity:.10;
+}
+#logo{
+	width:180px;
+	height:100px;
+	background-color: #b3d9ff;
+	display:inline-block;
+	margin-top: 40px;
+	padding:10px;
+}
+#logo img{
+	margin-top: 8px;
+}
+
+.row{
+	width:840px;
+	height:285px;
+	background-color: #ffe6b3;
+}
+.row2 h3{
+	padding-left: 60px;
+	padding-top: 20px;
+	font-size: 18px;
+	text-align:left;
+}
+.row2 h2{
+	padding-left: 30px;
+	padding-top: 20px;
+	text-align:left;
+}
+.row2{
+	width:840px;
+	height:285px;
+	background-color: #ffccee;
+}
+.row p {
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 50px;
+	text-align:left;
+	line-height: 25px;
+}
+.row h2{
+	padding-left: 30px;
+	padding-top: 20px;
+	text-align:left;
+}
